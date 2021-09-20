@@ -5,12 +5,7 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiCalculadora", "MiCalculadora\MiCalculadora.csproj", "{721E2752-8A7A-4DF5-A326-711338BA1269}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{7B65AF2D-92D7-4155-A34C-7E5C83CCD079}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testeo", "Testeo\Testeo.csproj", "{DA92FF61-0355-4923-9513-36D72FC00B49}"
-	ProjectSection(ProjectDependencies) = postProject
-		{7B65AF2D-92D7-4155-A34C-7E5C83CCD079} = {7B65AF2D-92D7-4155-A34C-7E5C83CCD079}
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entidades", "Entidades\Entidades.csproj", "{7B65AF2D-92D7-4155-A34C-7E5C83CCD079}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,10 +21,6 @@ Global
 		{7B65AF2D-92D7-4155-A34C-7E5C83CCD079}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B65AF2D-92D7-4155-A34C-7E5C83CCD079}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B65AF2D-92D7-4155-A34C-7E5C83CCD079}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DA92FF61-0355-4923-9513-36D72FC00B49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DA92FF61-0355-4923-9513-36D72FC00B49}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DA92FF61-0355-4923-9513-36D72FC00B49}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DA92FF61-0355-4923-9513-36D72FC00B49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

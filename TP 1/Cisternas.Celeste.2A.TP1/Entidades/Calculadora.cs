@@ -21,8 +21,8 @@ namespace Entidades
         public static double Operar(Operando num1, Operando num2, char operador)
         {
             double result = 0;
-
-            switch (operador)
+            char op = ValidarOperador(operador);
+            switch (op)
             {
                 case '+':
                     result = num1 + num2;
@@ -35,6 +35,9 @@ namespace Entidades
                     break;
                 case '*':
                     result = num1 * num2;
+                    break;
+                default:
+                    result = num1 + num2;
                     break;
             }
             return result;

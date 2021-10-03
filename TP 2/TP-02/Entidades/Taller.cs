@@ -48,7 +48,7 @@ namespace Entidades
         /// <returns><devuelve la lista>
         public override string ToString()
         {
-            return this.Listar(this, ETipo.Todos);
+            return Taller.Listar(this, ETipo.Todos);
         }
         #endregion
 

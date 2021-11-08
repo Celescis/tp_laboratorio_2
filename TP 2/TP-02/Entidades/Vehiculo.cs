@@ -32,7 +32,7 @@ namespace Entidades
         /// <summary>
         /// ReadOnly: Retornará el tamaño
         /// </summary>
-        protected abstract ETamanio Tamanio { get;} //lo deje solo get porque es lectura
+        protected abstract ETamanio Tamanio { get; } //lo deje solo get porque es lectura
         #endregion PROPIEDAD
 
         #region CONSTRUCTOR

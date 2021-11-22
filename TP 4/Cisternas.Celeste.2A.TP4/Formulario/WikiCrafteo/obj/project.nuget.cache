@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6YpSX9wGL018DpsVCjWHhy+C3sBv6mh/knv1Um4CfMQsOxBC35OMDUMgUvp8PgemtGjV3QBfMVPXEbSWW3uG/w==",
+  "dgSpecHash": "ezvbmAX14Z/3NwMdmD8T9+Po3jSmaZbqoIKv/7zMc8M9vSgTqfOltuo8+CeWRkW2RK1sZ3sZzghnYgVNIqhHFg==",
   "success": true,
-  "projectFilePath": "D:\\Documents\\UTN 2do Cuatrimestre\\Programacion y Laboratorio\\TP\\TP 4\\Cisternas.Celeste.2A.TP4\\Formulario\\WikiCrafteo\\WikiCrafteo.csproj",
+  "projectFilePath": "D:\\Desktop\\Cisternas.Celeste.2A.TP4\\Formulario\\WikiCrafteo\\WikiCrafteo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\celes\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\celes\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

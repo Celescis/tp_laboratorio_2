@@ -49,3 +49,29 @@ D:\Desktop\Cisternas.Celeste.2A.TP3\Formulario\WikiCrafteo\obj\Debug\net5.0-wind
 D:\Desktop\Cisternas.Celeste.2A.TP3\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\ref\WikiCrafteo.dll
 D:\Desktop\Cisternas.Celeste.2A.TP3\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.pdb
 D:\Desktop\Cisternas.Celeste.2A.TP3\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.genruntimeconfig.cache
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Formulario\WikiCrafteo\bin\Debug\net5.0-windows\WikiCrafteo.exe
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Formulario\WikiCrafteo\bin\Debug\net5.0-windows\WikiCrafteo.deps.json
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Formulario\WikiCrafteo\bin\Debug\net5.0-windows\WikiCrafteo.runtimeconfig.json
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Formulario\WikiCrafteo\bin\Debug\net5.0-windows\WikiCrafteo.runtimeconfig.dev.json
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Formulario\WikiCrafteo\bin\Debug\net5.0-windows\WikiCrafteo.dll
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Formulario\WikiCrafteo\bin\Debug\net5.0-windows\ref\WikiCrafteo.dll
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Formulario\WikiCrafteo\bin\Debug\net5.0-windows\WikiCrafteo.pdb
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Formulario\WikiCrafteo\bin\Debug\net5.0-windows\Entidades.dll
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Formulario\WikiCrafteo\bin\Debug\net5.0-windows\Entidades.pdb
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.csproj.AssemblyReference.cache
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.frm_ConseguirBloques.resources
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.frm_ConstruirHerramienta.resources
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.frm_Estadisticas.resources
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.frm_Ingreso.resources
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.frm_WikiCrafteo.resources
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.Properties.Resources.resources
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.csproj.GenerateResource.cache
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.AssemblyInfoInputs.cache
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.AssemblyInfo.cs
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.csproj.CoreCompileInputs.cache
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.csproj.CopyComplete
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.dll
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\ref\WikiCrafteo.dll
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.pdb
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.genruntimeconfig.cache

@@ -17,7 +17,6 @@ namespace WikiCrafteo
         Wiki wiki;
         frm_Ingreso formIngreso;
         frm_VerLista formVerLista;
-        string path;
 
         public Wiki Wiki { get => wiki; set => wiki = value; }
 
@@ -26,11 +25,10 @@ namespace WikiCrafteo
             InitializeComponent();
         }
 
-        public frm_WikiCrafteo(Wiki backup, string path):this()
+        public frm_WikiCrafteo(Wiki backup):this()
         {
             InitializeComponent();
             this.wiki = backup;
-            this.path = path;
         }
 
         /// <summary>
@@ -40,31 +38,30 @@ namespace WikiCrafteo
         /// <param name="e"></param>
         private void frm_WikiCrafteo_Load(object sender, EventArgs e)
         {
-            
         }
 
         private void btn_ConseguirBloques_Click(object sender, EventArgs e)
         {
-            formIngreso = new frm_Ingreso(this.Wiki, true);
+            formIngreso = new frm_Ingreso(this.wiki, true);
 
             this.ResultadoIngreso();
         }
 
         private void btn_ConstruirHerramientas_Click(object sender, EventArgs e)
         {
-            formIngreso = new frm_Ingreso(this.Wiki, false);
+            formIngreso = new frm_Ingreso(this.wiki, false);
 
             this.ResultadoIngreso();
         }
 
         private void btn_VerLista_Click(object sender, EventArgs e)
         {
-            formVerLista = new frm_VerLista(this.Wiki,path);
+            formVerLista = new frm_VerLista(this.wiki);
             DialogResult resultado = formVerLista.ShowDialog();
 
             if (resultado == DialogResult.OK)
             {
-                this.Wiki = formVerLista.wiki;
+                this.wiki = formVerLista.wiki;
             }  
         }
 
@@ -78,12 +75,12 @@ namespace WikiCrafteo
             if (resultado == DialogResult.OK)
             {
                 this.Wiki = formIngreso.wiki;
-                Archivos.SerializarXml(AppDomain.CurrentDomain.BaseDirectory + @"XML.xml", formIngreso.wiki);
+                Archivos.SerializarXml(@"backup.xml", formIngreso.wiki);
             }
         }
         private void btn_Estadisticas_Click(object sender, EventArgs e)
         {
-            frm_Estadisticas estadisticas = new frm_Estadisticas(this.Wiki);
+            frm_Estadisticas estadisticas = new frm_Estadisticas(this.wiki);
             estadisticas.ShowDialog();
         }
 

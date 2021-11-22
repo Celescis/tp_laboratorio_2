@@ -478,11 +478,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\UTN 2do Cuatrimestre\\Programacion y Laboratorio\\TP\\TP 4\\Cisternas.Celeste.2A.TP4\\Test\\Test\\Test.csproj",
+      "projectUniqueName": "D:\\Desktop\\Cisternas.Celeste.2A.TP4\\Test\\Test\\Test.csproj",
       "projectName": "Test",
-      "projectPath": "D:\\Documents\\UTN 2do Cuatrimestre\\Programacion y Laboratorio\\TP\\TP 4\\Cisternas.Celeste.2A.TP4\\Test\\Test\\Test.csproj",
+      "projectPath": "D:\\Desktop\\Cisternas.Celeste.2A.TP4\\Test\\Test\\Test.csproj",
       "packagesPath": "C:\\Users\\celes\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\UTN 2do Cuatrimestre\\Programacion y Laboratorio\\TP\\TP 4\\Cisternas.Celeste.2A.TP4\\Test\\Test\\obj\\",
+      "outputPath": "D:\\Desktop\\Cisternas.Celeste.2A.TP4\\Test\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -503,8 +503,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Documents\\UTN 2do Cuatrimestre\\Programacion y Laboratorio\\TP\\TP 4\\Cisternas.Celeste.2A.TP4\\Entidades\\Entidades.csproj": {
-              "projectPath": "D:\\Documents\\UTN 2do Cuatrimestre\\Programacion y Laboratorio\\TP\\TP 4\\Cisternas.Celeste.2A.TP4\\Entidades\\Entidades.csproj"
+            "D:\\Desktop\\Cisternas.Celeste.2A.TP4\\Entidades\\Entidades.csproj": {
+              "projectPath": "D:\\Desktop\\Cisternas.Celeste.2A.TP4\\Entidades\\Entidades.csproj"
             }
           }
         }

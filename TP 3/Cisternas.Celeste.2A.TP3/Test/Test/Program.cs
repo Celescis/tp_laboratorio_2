@@ -51,6 +51,7 @@ namespace Test
 
             wiki += uno;
             wiki += dos;
+            wiki += tres;
             wiki += cuatro;
 
 
@@ -86,26 +87,26 @@ namespace Test
             //Console.WriteLine(wiki.Mostrar());
             //Console.WriteLine("........A......");
 
-            filtros = filtros.OrdenarPorDiamante(wiki);
-            Archivos.GuardarTxt(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\Jugadores con diamantes.txt", filtros);
-            filtros2 = wiki.JugadoresConMasHerramientas(wiki);
-            Archivos.GuardarTxt(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\Jugadores con mas herramientas.txt", filtros2);
-            foreach (Jugador item in filtros.Jugadores)
-            {
-                Console.WriteLine(item);
-            }
+            //filtros = Wiki.JugadoresConMasCubos(wiki);
+            //Archivos.GuardarTxt(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\Jugadores con mas Cubos.txt", filtros);
+            //filtros2 = Wiki.JugadoresConMasHerramientas(wiki);
+            //Archivos.GuardarTxt(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\Jugadores con mas herramientas.txt", filtros2);
+            //foreach (Jugador item in filtros.Jugadores)
+            //{
+            //    Console.WriteLine(item);
+            //}
 
             ////ARCHIVOS TXT
             //Archivos.GuardarTxt(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\lista.txt", wiki);
             //Archivos.LeerTxt(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\lista.txt", out wiki);
 
-            ////SERIALIZACION XML
-            //Archivos.GuardarXml(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\Prueba.xml", wiki);
-            //wiki = Archivos.LeerXml(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\Prueba.xml");
-            //foreach (Jugador item in wiki.Jugadores)
-            //{
-            //    Console.WriteLine(item.ToString());
-            //}
+            //SERIALIZACION XML
+            Archivos.GuardarXml(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\Prueba.xml", wiki);
+            wiki = Archivos.LeerXml(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\Prueba.xml");
+            foreach (Jugador item in wiki.Jugadores)
+            {
+                Console.WriteLine(item.ToString());
+            }
 
             Console.ReadKey();
 

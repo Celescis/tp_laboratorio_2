@@ -36,3 +36,22 @@ D:\Desktop\Cisternas.Celeste.2A.TP3\Test\Test\obj\Debug\net5.0\ref\Test.dll
 D:\Desktop\Cisternas.Celeste.2A.TP3\Test\Test\obj\Debug\net5.0\Test.pdb
 D:\Desktop\Cisternas.Celeste.2A.TP3\Test\Test\obj\Debug\net5.0\Test.genruntimeconfig.cache
 D:\Desktop\Cisternas.Celeste.2A.TP3\Test\Test\obj\Debug\net5.0\Test.csproj.CopyComplete
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Test\Test\obj\Debug\net5.0\Test.csproj.AssemblyReference.cache
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Test\Test\obj\Debug\net5.0\Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Test\Test\obj\Debug\net5.0\Test.AssemblyInfoInputs.cache
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Test\Test\obj\Debug\net5.0\Test.AssemblyInfo.cs
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Test\Test\obj\Debug\net5.0\Test.csproj.CoreCompileInputs.cache
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Test\Test\obj\Debug\net5.0\Test.dll
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Test\Test\obj\Debug\net5.0\ref\Test.dll
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Test\Test\obj\Debug\net5.0\Test.pdb
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Test\Test\bin\Debug\net5.0\Test.exe
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Test\Test\bin\Debug\net5.0\Test.deps.json
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Test\Test\bin\Debug\net5.0\Test.runtimeconfig.json
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Test\Test\bin\Debug\net5.0\Test.runtimeconfig.dev.json
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Test\Test\bin\Debug\net5.0\Test.dll
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Test\Test\bin\Debug\net5.0\ref\Test.dll
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Test\Test\bin\Debug\net5.0\Test.pdb
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Test\Test\bin\Debug\net5.0\Entidades.dll
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Test\Test\bin\Debug\net5.0\Entidades.pdb
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Test\Test\obj\Debug\net5.0\Test.csproj.CopyComplete
+C:\Users\celes\tp_laboratorio_2\TP 3\Cisternas.Celeste.2A.TP3\Test\Test\obj\Debug\net5.0\Test.genruntimeconfig.cache

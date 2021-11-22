@@ -144,3 +144,39 @@ D:\Documents\UTN 2do Cuatrimestre\Programacion y Laboratorio\TP\TP 4\Cisternas.C
 D:\Documents\UTN 2do Cuatrimestre\Programacion y Laboratorio\TP\TP 4\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.frm_Descargas.resources
 D:\Documents\UTN 2do Cuatrimestre\Programacion y Laboratorio\TP\TP 4\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.frm_Edit.resources
 D:\Documents\UTN 2do Cuatrimestre\Programacion y Laboratorio\TP\TP 4\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\bin\Debug\net5.0-windows\XML.xml
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\bin\Debug\net5.0-windows\WikiCrafteo.exe
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\bin\Debug\net5.0-windows\XML.xml
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\bin\Debug\net5.0-windows\WikiCrafteo.deps.json
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\bin\Debug\net5.0-windows\WikiCrafteo.runtimeconfig.json
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\bin\Debug\net5.0-windows\WikiCrafteo.runtimeconfig.dev.json
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\bin\Debug\net5.0-windows\WikiCrafteo.dll
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\bin\Debug\net5.0-windows\ref\WikiCrafteo.dll
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\bin\Debug\net5.0-windows\WikiCrafteo.pdb
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\bin\Debug\net5.0-windows\Entidades.dll
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\bin\Debug\net5.0-windows\Entidades.pdb
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.csproj.AssemblyReference.cache
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.frm_ConseguirBloques.resources
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.frm_ConstruirHerramienta.resources
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.frm_Descargas.resources
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.frm_Edit.resources
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.frm_Estadisticas.resources
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.frm_Ingreso.resources
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.frm_VerLista.resources
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.frm_WikiCrafteo.resources
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.Properties.Resources.resources
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.csproj.GenerateResource.cache
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.AssemblyInfoInputs.cache
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.AssemblyInfo.cs
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.csproj.CoreCompileInputs.cache
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.csproj.CopyComplete
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.dll
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\ref\WikiCrafteo.dll
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.pdb
+D:\Desktop\Cisternas.Celeste.2A.TP4\Formulario\WikiCrafteo\obj\Debug\net5.0-windows\WikiCrafteo.genruntimeconfig.cache

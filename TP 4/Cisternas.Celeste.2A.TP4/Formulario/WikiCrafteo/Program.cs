@@ -19,19 +19,9 @@ namespace WikiCrafteo
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            string path="";
-            string []args = Directory.GetFiles(AppDomain.CurrentDomain.BaseDirectory);
-            foreach (string item in args)
-            {
-                if(item.Contains("Backup.xml"))
-                {
-                    path = item;
-                    break;
-                }
-            }
 
-            Wiki wiki = Archivos.DeserializarXml(path);
-            Application.Run(new frm_WikiCrafteo(wiki,path));
+            Wiki wiki = Archivos.DeserializarXml(@"backup.xml");
+            Application.Run(new frm_WikiCrafteo(wiki));
         }
     }
 }

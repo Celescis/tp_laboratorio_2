@@ -27,17 +27,19 @@ namespace Entidades
             Wiki lista = new Wiki();
 
             try
-            { 
-                if(connection.State != System.Data.ConnectionState.Open)
+            {
+                if (connection.State != System.Data.ConnectionState.Open)
                 {
                     connection.Open();
                 }
+
                 command.CommandText = "SELECT * FROM Jugadores";
 
                 SqlDataReader dataReader = command.ExecuteReader();
 
-                while(dataReader.Read())
+                while (dataReader.Read())
                 {
+                    
                     lista.Jugadores.Add(new Jugador(int.Parse(dataReader["ID_JUGADOR"].ToString()), dataReader["USUARIO"].ToString()));
                 }
             }
@@ -96,7 +98,7 @@ namespace Entidades
 
                 command.CommandText = $"DELETE FROM Jugadores WHERE ID_JUGADOR = @ID AND USUARIO = @USUARIO";
                 command.Parameters.AddWithValue("@ID", jugador.Id);
-                command.Parameters.AddWithValue("@USUARIO",jugador.Usuario);
+                command.Parameters.AddWithValue("@USUARIO", jugador.Usuario);
 
                 command.ExecuteNonQuery();
             }

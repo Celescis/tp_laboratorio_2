@@ -12,7 +12,7 @@ namespace Entidades
 {
     public static class ArchivosEstadisticos
     {
-        static string pathBase;
+        static readonly string pathBase;
         
         static ArchivosEstadisticos()
         {

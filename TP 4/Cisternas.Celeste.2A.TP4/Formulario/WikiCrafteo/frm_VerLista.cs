@@ -17,7 +17,7 @@ namespace WikiCrafteo
     public partial class frm_VerLista : Form
     {
         public Wiki wiki;
-        string path;
+
 
         public frm_VerLista()
         {
@@ -25,16 +25,16 @@ namespace WikiCrafteo
             this.wiki = new Wiki();
         }
 
-        public frm_VerLista(Wiki lista, string path) : this()
+        public frm_VerLista(Wiki lista) : this()
         {
             this.wiki = lista;
-            this.path = path;
         }
 
         private void frm_VerLista_Load(object sender, EventArgs e)
         {
             rtb_Inventario.ReadOnly = true;
-            dtgv_VerLista.DataSource = wiki.Jugadores;
+            //this.wiki = JugadorAccesoDatos.Leer();
+            dtgv_VerLista.DataSource = this.wiki.Jugadores;
 
             dtgv_VerLista.Columns["Id"].DisplayIndex = 0;
             dtgv_VerLista.Columns["Usuario"].DisplayIndex = 1;
@@ -54,10 +54,12 @@ namespace WikiCrafteo
                 if (dtgv_VerLista.SelectedRows.Count > 0)
                 {
                     Jugador player = (Jugador)dtgv_VerLista.CurrentRow.DataBoundItem;
+
                     if (MessageBox.Show("¿Esta seguro que desea borrar este jugador?", "AVISO", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) == DialogResult.OK)
                     {
                         JugadorAccesoDatos.Eliminar(player);
-                        this.wiki = JugadorAccesoDatos.Leer();
+                        this.wiki.Jugadores.Remove(player);
+                        Archivos.SerializarXml(@"backup.xml", this.wiki);
                         this.Refrescar();
                     }
                     else
@@ -90,8 +92,7 @@ namespace WikiCrafteo
                     if (resultado == DialogResult.OK)
                     {
                         JugadorAccesoDatos.Editar(editar.aux);
-                        Archivos.SerializarXml(AppDomain.CurrentDomain.BaseDirectory + @"XML.xml", this.wiki);
-                        //this.wiki = JugadorAccesoDatos.Leer();
+                        Archivos.SerializarXml(@"backup.xml", this.wiki);
                         this.Refrescar();
                     }
                     else

@@ -26,7 +26,7 @@ namespace TestProject1
 
             //Assert
             Assert.AreEqual(usuario, jugadorRecibido.Usuario);//compara el nombre entregado al metodo con el nombre del jugador que devuelve el metodo
-            Assert.IsTrue(isNew);//si es true si el jugador es nuevo
+            Assert.IsFalse(isNew);//si es true si el jugador es nuevo
         }
 
         /// <summary>

@@ -12,6 +12,15 @@ namespace Entidades
 {
     public class Archivos
     {
+        static readonly string pathBase = AppDomain.CurrentDomain.BaseDirectory + @"\Backup\";
+        public Archivos()
+        {
+            if (!Directory.Exists(pathBase))
+            {
+                Directory.CreateDirectory(pathBase);
+            }
+
+        }
         /// <summary>
         /// Guarda la lista de jugadores con su inventario en un archivo txt  
         /// </summary>
@@ -136,7 +145,7 @@ namespace Entidades
             bool isOk = false;
             try
             {
-                using (XmlTextWriter writer = new XmlTextWriter(archivo, Encoding.UTF8))
+                using (XmlTextWriter writer = new XmlTextWriter(pathBase+archivo, Encoding.UTF8))
                 {
                     XmlSerializer serializer = new XmlSerializer(typeof(Wiki));
 
@@ -161,7 +170,7 @@ namespace Entidades
             Wiki lista;
             try
             {
-                using (XmlTextReader writer = new XmlTextReader(archivo))
+                using (XmlTextReader writer = new XmlTextReader(pathBase + archivo))
                 {
                     XmlSerializer deserializer = new XmlSerializer(typeof(Wiki));
 
@@ -185,7 +194,7 @@ namespace Entidades
 
                 string json = JsonSerializer.Serialize(lista, jsonSerializerOptions);
 
-                File.WriteAllText(path, json);
+                File.WriteAllText(pathBase + path, json);
             }
             catch (Exception)
             {
@@ -197,10 +206,10 @@ namespace Entidades
         {
             try
             {
-                string json = File.ReadAllText(path);
+                string json = File.ReadAllText(pathBase + path);
 
                 Wiki lista = JsonSerializer.Deserialize<Wiki>(json);
-                
+
                 return lista;
             }
             catch (Exception)

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\UTN 2do Cuatrimestre\\Programacion y Laboratorio\\TP\\TP 4\\Cisternas.Celeste.2A.TP4\\Formulario\\WikiCrafteo\\WikiCrafteo.csproj": {}
+    "D:\\Desktop\\Cisternas.Celeste.2A.TP4\\Formulario\\WikiCrafteo\\WikiCrafteo.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\UTN 2do Cuatrimestre\\Programacion y Laboratorio\\TP\\TP 4\\Cisternas.Celeste.2A.TP4\\Entidades\\Entidades.csproj": {
+    "D:\\Desktop\\Cisternas.Celeste.2A.TP4\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\UTN 2do Cuatrimestre\\Programacion y Laboratorio\\TP\\TP 4\\Cisternas.Celeste.2A.TP4\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "D:\\Desktop\\Cisternas.Celeste.2A.TP4\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "D:\\Documents\\UTN 2do Cuatrimestre\\Programacion y Laboratorio\\TP\\TP 4\\Cisternas.Celeste.2A.TP4\\Entidades\\Entidades.csproj",
+        "projectPath": "D:\\Desktop\\Cisternas.Celeste.2A.TP4\\Entidades\\Entidades.csproj",
         "packagesPath": "C:\\Users\\celes\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\UTN 2do Cuatrimestre\\Programacion y Laboratorio\\TP\\TP 4\\Cisternas.Celeste.2A.TP4\\Entidades\\obj\\",
+        "outputPath": "D:\\Desktop\\Cisternas.Celeste.2A.TP4\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -68,14 +68,14 @@
         }
       }
     },
-    "D:\\Documents\\UTN 2do Cuatrimestre\\Programacion y Laboratorio\\TP\\TP 4\\Cisternas.Celeste.2A.TP4\\Formulario\\WikiCrafteo\\WikiCrafteo.csproj": {
+    "D:\\Desktop\\Cisternas.Celeste.2A.TP4\\Formulario\\WikiCrafteo\\WikiCrafteo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\UTN 2do Cuatrimestre\\Programacion y Laboratorio\\TP\\TP 4\\Cisternas.Celeste.2A.TP4\\Formulario\\WikiCrafteo\\WikiCrafteo.csproj",
+        "projectUniqueName": "D:\\Desktop\\Cisternas.Celeste.2A.TP4\\Formulario\\WikiCrafteo\\WikiCrafteo.csproj",
         "projectName": "WikiCrafteo",
-        "projectPath": "D:\\Documents\\UTN 2do Cuatrimestre\\Programacion y Laboratorio\\TP\\TP 4\\Cisternas.Celeste.2A.TP4\\Formulario\\WikiCrafteo\\WikiCrafteo.csproj",
+        "projectPath": "D:\\Desktop\\Cisternas.Celeste.2A.TP4\\Formulario\\WikiCrafteo\\WikiCrafteo.csproj",
         "packagesPath": "C:\\Users\\celes\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\UTN 2do Cuatrimestre\\Programacion y Laboratorio\\TP\\TP 4\\Cisternas.Celeste.2A.TP4\\Formulario\\WikiCrafteo\\obj\\",
+        "outputPath": "D:\\Desktop\\Cisternas.Celeste.2A.TP4\\Formulario\\WikiCrafteo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -96,8 +96,8 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "D:\\Documents\\UTN 2do Cuatrimestre\\Programacion y Laboratorio\\TP\\TP 4\\Cisternas.Celeste.2A.TP4\\Entidades\\Entidades.csproj": {
-                "projectPath": "D:\\Documents\\UTN 2do Cuatrimestre\\Programacion y Laboratorio\\TP\\TP 4\\Cisternas.Celeste.2A.TP4\\Entidades\\Entidades.csproj"
+              "D:\\Desktop\\Cisternas.Celeste.2A.TP4\\Entidades\\Entidades.csproj": {
+                "projectPath": "D:\\Desktop\\Cisternas.Celeste.2A.TP4\\Entidades\\Entidades.csproj"
               }
             }
           }

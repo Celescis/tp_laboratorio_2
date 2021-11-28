@@ -27,7 +27,7 @@ namespace WikiCrafteo
         }
         public frm_Ingreso(Wiki wiki) : this()
         {
-            this.wiki = wiki;//aca estaba new
+            this.wiki = wiki;
         }
         public frm_Ingreso(Wiki jugadoresInicio, bool formCubo) : this(jugadoresInicio)
         {
@@ -61,25 +61,32 @@ namespace WikiCrafteo
                         }
                         else
                         {
-                            JugadorAccesoDatos.LimpiarInventarioConsulta(player.Inventario.ID, player.Inventario.Capacidad);
+                            JugadorAccesoDatos.EditarInventarioConsulta(player);
                         }
                     }
                     else
                     {
-                        if (this.formCubo && realizado == 1)
+                        if (realizado != 2)
                         {
-                            JugadorAccesoDatos.GuardarCuboConsulta(player, cuboAux);
-                        }
-                        else
-                        {
-                            if (realizado == 1)
+                            if (this.formCubo && realizado == 1)
                             {
-                                JugadorAccesoDatos.GuardarHerramientaConsulta(player, toolAux);
+                                JugadorAccesoDatos.GuardarCuboConsulta(player, cuboAux);
                             }
                             else
                             {
-                                JugadorAccesoDatos.LimpiarInventarioConsulta(player.Inventario.ID, player.Inventario.Capacidad);
+                                if (realizado == 1)
+                                {
+                                    JugadorAccesoDatos.GuardarHerramientaConsulta(player, toolAux);
+                                }
+                                else
+                                {
+                                    JugadorAccesoDatos.EditarInventarioConsulta(player);
+                                }
                             }
+                        }
+                        else
+                        {
+                            this.Close();
                         }
                     }
                 }
@@ -113,9 +120,16 @@ namespace WikiCrafteo
                     }
                     else
                     {
-                        cubo = bloques.auxCubo;
-                        realizado = 1;
-                        this.DialogResult = DialogResult.OK;
+                        if (resultado == DialogResult.OK)
+                        {
+                            cubo = bloques.auxCubo;
+                            realizado = 1;
+                            this.DialogResult = DialogResult.OK;
+                        }
+                        else
+                        {
+                            realizado = 2;
+                        }
                     }
                 }
                 else
@@ -134,9 +148,16 @@ namespace WikiCrafteo
                             }
                             else
                             {
-                                tool = herramientas.auxTool;
-                                realizado = 1;
-                                this.DialogResult = DialogResult.OK;
+                                if (resultado == DialogResult.OK)
+                                {
+                                    tool = herramientas.auxTool;
+                                    realizado = 1;
+                                    this.DialogResult = DialogResult.OK;
+                                }
+                                else
+                                {
+                                    realizado = 2;
+                                }
                             }
                         }
                         else

@@ -136,7 +136,7 @@ namespace WikiCrafteo
             {
                 Action<RichTextBox, Jugador> action = TraerContenido;
                 object[] parameters = new object[] { textBox, jugador };
-                Invoke(action, parameters);
+                this.Invoke(action, parameters);
             }
             else
             {
@@ -154,17 +154,15 @@ namespace WikiCrafteo
                     if (MessageBox.Show("¿Esta seguro que desea vaciar el inventario de este jugador?", "AVISO", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) == DialogResult.OK)
                     {
                         player.Inventario.ListaElementos.Clear();
-                        player.Inventario.Capacidad=20;
+                        player.Inventario.Capacidad = 20;
                         this.wiki += player;
                         JugadorAccesoDatos.EditarInventarioConsulta(player);
-
-                        this.Refrescar();
+                        TraerContenido(rtb_Inventario, player);
                     }
                     else
                     {
                         MessageBox.Show("Cancelado", "Estado", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                     }
-
                 }
                 else
                 {

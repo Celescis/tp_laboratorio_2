@@ -16,7 +16,7 @@ namespace Entidades
 
         static JugadorAccesoDatos()
         {
-            connectionString = @"Data Source=DESKTOP-Q90H3PF;Database=WikiCrafteo;Trusted_Connection=True;";
+            connectionString = @"Data Source=DESKTOP-Q90H3PF;Database=WikiCrafteoDB;Trusted_Connection=True;";
             command = new SqlCommand();
             connection = new SqlConnection(connectionString);
             command.Connection = connection;
@@ -32,7 +32,7 @@ namespace Entidades
                     connection.Open();
                 }
 
-                SqlCommand cmd = new SqlCommand("consulta_AllJugadores", command.Connection);
+                SqlCommand cmd = new SqlCommand("consulta_ObtenerTodos", command.Connection);
                 cmd.CommandType = CommandType.StoredProcedure;
 
                 SqlDataAdapter sd = new SqlDataAdapter(cmd);
@@ -51,46 +51,6 @@ namespace Entidades
                 connection.Close();
             }
         }
-
-        //public static List<Inventario> LeerCubosConsulta()
-        //{
-        //    List<Inventario> lista = new List<Inventario>();
-        //    List<Cubo> cubos = new List<Cubo>();
-        //    try
-        //    {
-        //        command.Parameters.Clear();
-
-        //        if (connection.State != ConnectionState.Open)
-        //        {
-        //            connection.Open();
-        //        }
-        //        command.CommandText = "SELECT i.ID_INVENTARIO, i.CAPACIDAD, c.CANTIDAD, c.MATERIAL FROM Inventarios i LEFT JOIN Cubos c ON i.ID_INVENTARIO = c.ID_INVENTARIO";
-
-        //        SqlDataReader dataReader = command.ExecuteReader();
-
-        //        while (dataReader.Read())
-        //        {
-        //            lista.Add(new Inventario(int.Parse(dataReader["i.ID_INVENTARIO"].ToString()), int.Parse(dataReader["i.CAPACIDAD"].ToString())));
-        //            cubos.Add(new Cubo((ETipoMaterial)Enum.Parse(typeof(ETipoMaterial), dataReader["c.MATERIAL"].ToString()), int.Parse(dataReader["c.CANTIDAD"].ToString())));
-        //        }
-
-        //        for (int i = 0; i < lista.Count; i++)
-        //        {
-        //            if(lista[i].ID==i)
-        //            lista[i].ListaElementos.Add(cubos[i]);
-        //        }
-                
-        //        return lista;
-        //    }
-        //    catch (Exception)
-        //    {
-        //        throw;
-        //    }
-        //    finally
-        //    {
-        //        connection.Close();
-        //    }
-        //}
 
         public static void BorrarConsulta(Jugador player)
         {
@@ -168,8 +128,10 @@ namespace Entidades
 
                 cmd.Parameters.AddWithValue("ID_INVENTARIO", player.Inventario.ID);
                 cmd.Parameters.AddWithValue("CAPACIDAD", player.Inventario.Capacidad);
-                cmd.Parameters.AddWithValue("C_CANTIDAD", cubo.Cantidad);
-                cmd.Parameters.AddWithValue("C_MATERIAL", cubo.Tipo.ToString());
+                cmd.Parameters.AddWithValue("CCANTIDAD", cubo.Cantidad);
+                cmd.Parameters.AddWithValue("CMATERIAL", cubo.Tipo.ToString());
+                cmd.Parameters.AddWithValue("TIPO", 0);
+                cmd.Parameters.AddWithValue("DESCRIPCION", "");
 
                 cmd.ExecuteNonQuery();
             }
@@ -199,10 +161,10 @@ namespace Entidades
 
                 cmd.Parameters.AddWithValue("ID_INVENTARIO", player.Inventario.ID);
                 cmd.Parameters.AddWithValue("CAPACIDAD", player.Inventario.Capacidad);
-                cmd.Parameters.AddWithValue("C_CANTIDAD", tool.Cantidad);
-                cmd.Parameters.AddWithValue("H_CANTIDAD", tool.Cantidad);
-                cmd.Parameters.AddWithValue("H_MATERIAL", tool.Tipo.ToString());
-                cmd.Parameters.AddWithValue("HERRAMIENTA", tool.TipoHerramienta.ToString());
+                cmd.Parameters.AddWithValue("HCANTIDAD", tool.Cantidad);
+                cmd.Parameters.AddWithValue("HMATERIAL", tool.Tipo.ToString());
+                cmd.Parameters.AddWithValue("TIPO", 1);
+                cmd.Parameters.AddWithValue("DESCRIPCION", tool.TipoHerramienta.ToString());
 
                 cmd.ExecuteNonQuery();
             }
@@ -259,35 +221,6 @@ namespace Entidades
                 command.Parameters.AddWithValue("@ID", jugadorEdit.Id);
 
                 command.ExecuteNonQuery();
-            }
-            catch (Exception)
-            {
-                throw;
-            }
-            finally
-            {
-                connection.Close();
-            }
-        }
-
-        public static void LimpiarInventarioConsulta(int id,int capacidad)
-        {
-            try
-            {
-                command.Parameters.Clear();
-
-                if (connection.State != ConnectionState.Open)
-                {
-                    connection.Open();
-                }
-
-                SqlCommand cmd = new SqlCommand("consulta_LimpiarInventario", command.Connection);
-                cmd.CommandType = CommandType.StoredProcedure;
-
-                cmd.Parameters.AddWithValue("ID_INVENTARIO", id);
-                cmd.Parameters.AddWithValue("CAPACIDAD", capacidad);
-
-                cmd.ExecuteNonQuery();
             }
             catch (Exception)
             {

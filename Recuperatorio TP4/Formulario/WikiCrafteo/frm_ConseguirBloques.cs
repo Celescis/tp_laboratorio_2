@@ -74,13 +74,16 @@ namespace WikiCrafteo
                     if (seleccion != "Ninguno" && capacidadInventario > 0 && cantidad > 0 && cantidad <= auxiliar.Inventario.Capacidad)
                     {
                         auxCubo = this.SeleccionUsuario(auxiliar, cantidad);
-                        if (eve)
+                        if (cantidad > 0)
                         {
-                            this.DialogResult = DialogResult.No;
-                        }
-                        else
-                        {
-                            this.DialogResult = DialogResult.OK;
+                            if (eve)
+                            {
+                                this.DialogResult = DialogResult.No;
+                            }
+                            else
+                            {
+                                this.DialogResult = DialogResult.OK;
+                            }
                         }
                     }
                     else

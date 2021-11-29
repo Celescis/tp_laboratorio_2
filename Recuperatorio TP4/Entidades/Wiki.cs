@@ -52,7 +52,8 @@ namespace Entidades
         #region METODOS
         /// <summary>
         /// Metodo que recibe un string, va a buscar ese usuario en la lista de jugadores
-        /// y de no encontrarlo, lo crea y lo devuelve
+        /// y de no encontrarlo, lo crea y lo devuelve, ademas genera el ultimo id de la lista y se lo asigna al nuevo jugador,
+        /// hace lo mismo con el id del inventario
         /// </summary>
         /// <param name="usuario"></param>
         /// <returns></returns>

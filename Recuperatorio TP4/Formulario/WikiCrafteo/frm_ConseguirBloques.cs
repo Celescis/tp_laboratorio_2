@@ -142,6 +142,7 @@ namespace WikiCrafteo
                 ((Inventario)sender).ListaElementos.Clear();
                 ((Inventario)sender).Capacidad = 20;
                 eve = true;
+                aux.Inventario.EventoCapacidad -= Inventario_EventoCapacidad;
             }
             else
             {

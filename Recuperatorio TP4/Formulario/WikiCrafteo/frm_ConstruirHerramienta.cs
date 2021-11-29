@@ -176,7 +176,7 @@ namespace WikiCrafteo
             else
             {
                 MessageBox.Show("Inventario completo", "LIMITE CAPACIDAD", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.DialogResult = DialogResult.OK;
+                //this.DialogResult = DialogResult.OK;
             }
         }
     }

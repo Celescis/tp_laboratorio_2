@@ -216,7 +216,7 @@ namespace Entidades
             return index;
         }
 
-        public void OrdenarInventario()//ACA ORDENAR CAPACIDAD LLAMANDO A UN METODO
+        public void OrdenarInventario()
         {
             Elemento aux;
             int index=-1;
@@ -443,7 +443,6 @@ namespace Entidades
                 if (i.EventoCapacidad != null)
                 {
                     i.EventoCapacidad(i, EventArgs.Empty);
-                    isOk = false;
                 }
             }
 

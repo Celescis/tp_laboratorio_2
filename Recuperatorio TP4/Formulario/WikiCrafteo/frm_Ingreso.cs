@@ -20,6 +20,7 @@ namespace WikiCrafteo
         Jugador jugador;
         public Wiki wiki;
         bool formCubo;
+        bool tools = false;
 
         public frm_Ingreso()
         {
@@ -52,7 +53,7 @@ namespace WikiCrafteo
                     realizado = this.FormularioDerivado(this.formCubo, this.jugador, out cuboAux, out toolAux);
                     Jugador player = new Jugador(this.jugador.Id, this.jugador.Usuario, this.jugador.Inventario);
 
-                    if (nuevo)
+                    if (!(tools) && nuevo)
                     {
                         JugadorAccesoDatos.GuardarJugadorConsulta(player);
                         if (realizado == 1)
@@ -81,6 +82,7 @@ namespace WikiCrafteo
                                 else
                                 {
                                     JugadorAccesoDatos.EditarInventarioConsulta(player);
+                                    this.Close();
                                 }
                             }
                         }
@@ -163,6 +165,8 @@ namespace WikiCrafteo
                         else
                         {
                             MessageBox.Show("Primero debe obtener bloques", "No puede ingresar", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                            tools = true;
+                            realizado = 2;
                         }
                     }
                     catch (Exception)

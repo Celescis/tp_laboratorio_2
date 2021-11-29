@@ -56,21 +56,24 @@ namespace WikiCrafteo
                 int capacidadInventario = auxiliar.Inventario.Capacidad;
                 int.TryParse(nud_CantidadHerramientas.Value.ToString(), out int cantidad);
 
-                if (seleccion != "Seleccionar" && capacidadInventario > 0 && cantidad > 0 && cantidad <= capacidadInventario && (auxiliar.Inventario.CantidadDiamante>=cantidad || auxiliar.Inventario.CantidadPiedra >= cantidad || auxiliar.Inventario.CantidadMadera >= cantidad))
+                if (seleccion != "Seleccionar" && capacidadInventario <= 20 && capacidadInventario > 0 && cantidad > 0 && cantidad <= capacidadInventario && (auxiliar.Inventario.CantidadDiamante >= cantidad || auxiliar.Inventario.CantidadPiedra >= cantidad || auxiliar.Inventario.CantidadMadera >= cantidad))
                 {
                     auxTool = this.SeleccionUsuario(auxiliar, cantidad);
-                    if (eve)
+                    if (auxTool is not null)
                     {
-                        this.DialogResult = DialogResult.No;
-                    }
-                    else
-                    {
-                        this.DialogResult = DialogResult.OK;
+                        if (eve)
+                        {
+                            this.DialogResult = DialogResult.No;
+                        }
+                        else
+                        {
+                            this.DialogResult = DialogResult.OK;
+                        }
                     }
                 }
                 else
                 {
-                    if(cantidad==0 || cantidad>capacidadInventario)
+                    if (cantidad == 0 || cantidad > capacidadInventario)
                     {
                         throw new CantidadIncorrectaException();
                     }
@@ -113,6 +116,10 @@ namespace WikiCrafteo
                                 break;
                         }
                     }
+                }
+                else
+                {
+                    herramienta = null;
                 }
                 return herramienta;
             }
@@ -172,6 +179,7 @@ namespace WikiCrafteo
                 ((Inventario)sender).ListaElementos.Clear();
                 ((Inventario)sender).Capacidad = 20;
                 eve = true;
+                aux.Inventario.EventoCapacidad -= Inventario_EventoCapacidad;
             }
             else
             {

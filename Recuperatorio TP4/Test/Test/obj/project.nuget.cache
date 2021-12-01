@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8DVwLk7atYVftxA8YnKP2CiZWbQcwk6M6P3l9CZXkMMI1BhP5Eoyw+siSX5dQ2fiz1BrehsC+t1pIsPLxD9ZjA==",
+  "dgSpecHash": "WMwzJ70GaoWOt81OEX1MMX7kK3GWEotTxcUaaahrHyYoSYJKE6Cz4RSPDDPb2vsNmAZefhYCXRbYSUgS+8WmXw==",
   "success": true,
-  "projectFilePath": "D:\\Desktop\\Cisternas.Celeste.2A.TP4\\Test\\Test\\Test.csproj",
+  "projectFilePath": "C:\\Users\\celes\\tp_laboratorio_2\\Recuperatorio TP4\\Test\\Test\\Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\celes\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\celes\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

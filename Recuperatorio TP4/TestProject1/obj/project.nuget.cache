@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dz/A7cWpPnaKe9pi5KjfDJs4pYFXCdVnDwYs7T+2wX3QYC6J2JPY6Z4gdj0PCjbZLuOKP+kYSZkr5as6j5ALXQ==",
+  "dgSpecHash": "FcY/DPSPNIsWQLS7LMC3vUb9Iep3HkJ7YztqfWrHqYnvpBs5kChYaI/JO6O/HO4K1ovC8f+8JjTdi5EXxPsjzQ==",
   "success": true,
-  "projectFilePath": "D:\\Desktop\\Cisternas.Celeste.2A.TP4\\TestProject1\\TestProject1.csproj",
+  "projectFilePath": "C:\\Users\\celes\\tp_laboratorio_2\\Recuperatorio TP4\\TestProject1\\TestProject1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\celes\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\celes\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

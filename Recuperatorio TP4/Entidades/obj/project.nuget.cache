@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8UdjHuJxgv6wjuc5VlqsitYMzhLbihjIIKXJh+yEnBr/m96KbrxVDWHYUraLhIlS5wgI6YH0wG6iiyPi1aJHew==",
+  "dgSpecHash": "+IPG6rbO6n2k3E7lcayDvov7C9itgCZ6w7GZI40WzCl2xDgBNoEzOMqL+DbTEFldPKWLeadDp7mbG6/ElJsrRA==",
   "success": true,
-  "projectFilePath": "D:\\Desktop\\Cisternas.Celeste.2A.TP4\\Entidades\\Entidades.csproj",
+  "projectFilePath": "C:\\Users\\celes\\tp_laboratorio_2\\Recuperatorio TP4\\Entidades\\Entidades.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\celes\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\celes\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
